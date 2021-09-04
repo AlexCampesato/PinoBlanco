@@ -1,0 +1,106 @@
+@import "nav";
+@import "colores";
+@import "fuentes";
+
+/*--------------------------------*/
+
+.contIndex{
+	
+	&__titulo{
+	color: $colorNav;
+	font-size:40px;
+	}
+	&__text{
+	font-size:25px;
+	color: rgba(0,0,0,0.7);
+	}
+}
+
+/*---------------------------------*/
+
+.contNos{
+	background-color:grey;
+	&__img{
+	width: 100%;
+	height:auto;
+	}
+	&__titulo{
+	text-align: center;
+	  @media only screen and (min-width:1000px){
+		 font-size:100px;
+		 color: brown;
+		 position: absolute;
+	     top: 200px;
+	     right: 10%;
+	     background-color: rgba(255,255,255,0.6);
+	     padding:15px;
+		}
+	  @media only screen and (min-width:400px) and (max-width:999px){
+	  font-size:40px;
+	  color: brown;
+	  }
+	}
+	&__img{
+
+	}
+
+	&__texto{
+	  @media only screen and (min-width:1000px){
+		 font-size:30px;
+		 color: black;
+		 padding:30px;
+		 position: absolute;
+	     top: 500px;
+	     right: 1%;
+	     background-color: rgba(255,255,255,0.6);}
+
+	}
+}
+
+/*------------------------------*/
+
+.transicion:hover{
+	width:600px;
+	height:auto;
+	transition: all 5s;
+}
+.transicion{
+	padding:20px;
+}
+
+
+/*------------------------------*/
+
+
+.contProd{
+	background-color:white;
+	&__img{
+	width: 100%;
+	height:auto;
+	}
+	&__titulo{
+	text-align: center;
+	  @media only screen and (min-width:1000px){
+		 font-size:100px;
+		 color: brown;
+	     background-color: rgba(255,255,255,0.6);
+	     padding:15px;
+		}
+	  @media only screen and (min-width:400px) and (max-width:999px){
+	  font-size:40px;
+	  color: brown;
+	  }
+	}
+	&__img{
+
+	}
+
+	&__texto{
+	  @media only screen and (min-width:1000px){
+		 font-size:30px;
+		 color: black;
+		 padding:30px;
+	     background-color: rgba(255,255,255,0.6);}
+
+	}
+}
