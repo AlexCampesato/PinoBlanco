@@ -1,0 +1,3 @@
+Modifique los meta descripcion de todas las paginas 
+Busque paginas orientadas al mismo tema y observe sus keywords, ademas tome las recomendaciones de google para asi agreguar meta keywords a todas las paginas del proyecto
+Cambie los titulos de todas las paginas, ya que estaban por defoult
