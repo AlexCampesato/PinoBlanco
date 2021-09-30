@@ -73,34 +73,39 @@
 
 
 .contProd{
-	background-color:white;
+	background-color: #3f3f3f;
 	&__img{
 	width: 100%;
 	height:auto;
+	margin-block: 30px;
+
 	}
 	&__titulo{
 	text-align: center;
 	  @media only screen and (min-width:1000px){
-		 font-size:100px;
-		 color: brown;
+		 font-size:20px;
+		 color: black;
 	     background-color: rgba(255,255,255,0.6);
 	     padding:15px;
+	     border: 2px solid #2a2a2a;
+	     margin-top: 29px;
+	     margin-bottom: 29px;
+
+	     text-align: center;
+
 		}
+	&__titulo2{
+	padding-left: 35px;
+	color:red;
+
+	}
 	  @media only screen and (min-width:400px) and (max-width:999px){
 	  font-size:40px;
-	  color: brown;
+	  color: white;
+
 	  }
 	}
-	&__img{
 
-	}
-
-	&__texto{
-	  @media only screen and (min-width:1000px){
-		 font-size:30px;
-		 color: black;
-		 padding:30px;
-	     background-color: rgba(255,255,255,0.6);}
-
-	}
 }
+
+/*-------------------------------------*/
